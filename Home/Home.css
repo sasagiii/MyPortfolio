@@ -1,0 +1,102 @@
+ * {
+     box-sizing: border-box;
+     font-family: Verdana;
+ }
+
+ body {
+     font-family: Verdana;
+     color: #aaaaaa;
+ }
+
+ html {
+     background-color: #080808;
+ }
+
+ .header {
+     position: fixed;
+     top: 0%;
+     left: 0%;
+     width: 100%;
+     height: 6rem;
+     background-color: black;
+     padding: 2rem 6% 2rem;
+ }
+
+ .navigationBar {
+     font-size: 1.5rem;
+     margin-left: 1.5rem;
+     transition: 0.3 ease;
+     justify-content: space-between;
+     font-weight: 500;
+     padding-left: 4rem;
+     display: flex;
+ }
+
+
+ .right-links {
+  display: flex;
+}
+
+.left-link {
+  order: -1; 
+}
+
+
+ .navigationBar a:hover, .navigationBar a:active {
+    border-bottom: 3px solid;
+    color: tomato;
+ }
+
+
+ .navigationBar a {
+ text-decoration: none;
+ color: #aaaaaa;
+ margin-left: 4rem;
+ }
+
+  .homeButton a:hover, .navigationBar a:active {
+    border-bottom: 3px solid;
+    color: tomato;
+ }
+
+
+ .homeButton a {
+ text-decoration: none;
+ color: #aaaaaa;
+ margin-left: 4rem;
+ }
+
+ .summarySection {
+margin-top: 8rem;
+font-weight: 500;
+line-height: 1.8;
+ display: flex;
+justify-content: center;
+ color: white;
+ }
+
+  .summary {
+     max-width: 1000px;
+ }
+
+ .summary p {
+   text-indent: 15px;
+   text-align: left;  
+}
+
+  .summary h1, h3{
+    text-align: center;  
+ }
+
+   .summary h1{
+    font-size: 2rem;
+ }
+
+   .text-Animation{
+    color: #00ffee;  
+    transition: 0.3s ease;
+ }
+    .text-Animation:hover{
+    transform: scale(1.1);
+    font-size: 2.2rem;
+ }
